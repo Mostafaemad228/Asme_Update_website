@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Tourney:wght@100&display=swap');
+
+.team-page{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.overlayed-data-member p{
+  width: 100%;
+  font-size: 10px;
+  text-align: center;
+
+}
+
+.modal-content{
+  background:url(../images/banners/bg_4.jpg) no-repeat fixed center;
+  background-size: cover; 
+}
+.modal-header{
+  border: none!important;
+}
+
+
+/* /////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////// */
+
+.blog{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.blog .card{
+  background-color: transparent;
+  border: 1px solid #999999;
+}
+.description-square{
+width: 100px;
+height: auto;
+background-color: #1b6fc4;
+font-size: 14px;
+text-align: center;
+color: #fff;
+border-radius: 5px;
+top: -12px;
+left: calc( 50% - 50px );
+}
+
+.blog-person{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url("../images/111.jpg");
+  background-size: cover;
+  
+}
+.blog-down span {
+  font-size: 12px;
+}
+.blog-down:last-child{
+  font-size: 12px;
+}
+
+/* //////////////////////////////////////////// */
+/* /////////////////////////////////////////// */
+/* //////////////////////////////////////////// */
+/* /////////////////////////////////////////// */
+#About{
+  width: 100%;
+  height: auto;
+  position: relative;
+
+}
+
+.about-img{
+  width: 100%;
+  height: auto;
+  background-size: cover;  
+  border-radius: 5px;
+} 
+.about-text h2,.about-text h4{
+  font-family: 'Merriweather', serif;
+}
+.about-text p{
+  font-family: 'Harmattan', sans-serif;
+  font-size: 20px;
+
+}
+.about-btun{
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  border: 1.5px solid #60d16d;
+  border-radius: 5px;
+  outline: none!important;
+}
+.about-text .dev-data h3  {
+color: #fff;
+}
+.about-text .dev-data h3 b {
+  font-family: 'Tourney', cursive!important;
+    font-weight: 700;
+}
+
+.social-links a {
+  font-size: 33px;
+  margin-left: 5px;
+ }
+ 
+ .dev-arrow{
+   font-size: 40px;
+   color: white;
+ }
+/* //////////////////////////////////////////// */
+/* /////////////////////////////////////////// */
+/* //////////////////////////////////////////// */
+/* /////////////////////////////////////////// */
