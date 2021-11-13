@@ -6,8 +6,7 @@ a[aria-expanded="true"] ,
 #sidebarCollapse,
 .mainBtn,
 footer,
-#back-top,
-.owl-theme .owl-dots .owl-dot.active span
+#back-top
 {    
     background-color: #181e4b!important;
     font-family: 'Jua', sans-serif!important;
@@ -20,6 +19,7 @@ footer,
 .about-text-title,
 .card-header h5 span,
 .card-header h5 .fa-angle-double-down,
+
 #sidebar ul li a:hover,
 #sidebar ul li a:hover,
 a[aria-expanded="true"],
@@ -35,9 +35,7 @@ a[aria-expanded="true"],
 .fa-linkedin,
 .fa-instagram,
 .modal-title,
-.close,
-.about-text .dev-data h3 b,
-.dev-arrow
+.close
 
 
 
@@ -52,7 +50,6 @@ a[aria-expanded="true"],
 .col-right p,
 .middle-text p,
 .about-text-about p,
-.big,
 .blog-data h5:hover,
 .blog-data p,
 .member-data strong,

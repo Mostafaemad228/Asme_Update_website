@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Tourney:wght@100&display=swap');
 
-
 body {
     margin: 0;
     padding:0;
@@ -17,13 +16,27 @@ body {
 }
 
 .big {
+    opacity: 0.1!important;
+    color: #7f7f7f;
     position: relative;
-    top: 30px;
-    font-size: 100px;
+    top: 0px;
+    font-size: 120px;
     font-family: 'Dancing Script',cursive!important;
     z-index: 1!important;
     opacity: 0.2;
 }
+
+
+.my-song{
+        position: fixed;
+        top: 20px;
+        right: 0;
+        z-index: 111111111;
+}
+
+
+
+
 
 /* width */
 body::-webkit-scrollbar {
@@ -41,23 +54,17 @@ body::-webkit-scrollbar-track {
    
   /* Handle */
 body::-webkit-scrollbar-thumb {
-    background: #464444; 
+    background: #646ca5 !important;
+    
     border-radius: 10px;
   }
   
   /* Handle on hover */
 body::-webkit-scrollbar-thumb:hover {
-    background: #000000; 
+    background: #646ca5; 
   }
   
 
-/* .mySong{
-     position: fixed;
-     top: 20px;
-     right: 0;
-     z-index: 111111111;
-} */
-
 
 /* ///////////////////////////////////// */
 /* ///////////////////////////////////// */
@@ -66,13 +73,16 @@ body::-webkit-scrollbar-thumb:hover {
 /* ///////////////////////////////////// */
 /* ///////////////////////////////////// */
 
+
+
+/*  */
 
 #header{
     width: 100wh;
     padding: 20px;
     min-height: 100vh;
     transition: all 0.3s;
-    background:linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.3)) ,
+    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../images/banners/banner.jpeg) no-repeat  center;
     background-size: cover;
 }
@@ -98,10 +108,13 @@ body::-webkit-scrollbar-thumb:hover {
     font-weight: 400;
     /* margin-right: 15px; */
 }
-.sidebar-header h3{
-    font-family: 'Tourney', cursive;
-    font-weight: 700;
+
+.sidebar-header h3 {
+    font-family: 'Tourney', cursive; 
+    color: red;
+
 }
+
 .welcomeText{
     margin-top: 200px;
     position: absolute;
@@ -115,7 +128,8 @@ body::-webkit-scrollbar-thumb:hover {
     color: transparent;
     font-weight: 900;
     text-transform: uppercase;
-    font-size: 70px;
+    font-size: 85px;
+    
     -webkit-text-stroke: 2px rgba(255, 255, 255, 0.795);    
 }
 
@@ -124,9 +138,19 @@ position: absolute;
 width: 60px;
 height: 60px;
 background: transparent;
-border: 6px solid rgba(255, 255, 255, 0.9);
+/* border: 6px solid #ffffffe6; */
+display: flex;
+align-items: center;
+justify-content: center;
 
 }
+
+.fa-cog {
+    font-size: 100px;
+    color: #ffffffe6;
+
+}
+
 
 .element div:nth-child(1) {
     top: 11%;
@@ -325,78 +349,6 @@ transition: all 0.4s ease;
 /* ///////////////////////////////////// */
 
 
-#testemonials{
-    width: 100%;
-    height: auto;
-    position: relative;
-    z-index: 111;
-
-}
-
-
-.introHeader{
-    margin-top: 100px!important;
-}
-.teste-img{
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    /* background: url(../images/person_1.jpg) no-repeat center; */
-    background-size: cover;
-    display: block;
-    margin-left: calc(50% - 45px);
-}
-
-.middel-teste-container{background-color: tomato;}
- .teste-text {
-    font-size: 18px!important;
-    letter-spacing: 3px;
-    font-weight: 400;
-}
-.teste-persons p{color: #fff;font-weight: 400!important;}
-
-
-.circle{
-    width: 50px!important;
-    height: 50px!important;
-    border-radius: 50%;
-    margin: 0 auto;
-    line-height: 62px;
-    
-}
-.fa-quote-right {
-    font-size: 30px;
-}
-.owl-dots{
-    margin-left: 10px;
-}
-
-.owl-theme .owl-dots .owl-dot span{
-    width: 15px;
-    height: 15px;
-    border-radius: 50%!important;
-    background-color: black;
-    border-radius: 0;
-
-}
-
-
-.owl-theme .owl-dots .owl-dot.active span{
-    
-    width: 20px;
-    height: 20px;
-    border-radius: 50%!important;
-}
-
-
-
-/* ///////////////////////////////////// */
-/* ///////////////////////////////////// */
-/* ///////////////////////////////////// */
-/* ///////////////////////////////////// */
-/* ///////////////////////////////////// */
-/* ///////////////////////////////////// */
-
 #contact{
     width: 100%;
     height: auto;
@@ -591,30 +543,6 @@ ul, ol {
         margin-bottom: 15px;
 
     }
-    .about-text .dev-data h3 {
-font-size: 22px;
-    }
-    .image-1{
-        order: 1;
-    }
-    .Atext-1{
-        order: 2;
-    }
-    .image-2{
-        order: 3;
-    }
-    .Atext-2{
-        order: 4;
-    }
-    .image-3{
-        order: 5;
-    }
-    .Atext-3{
-        order: 6;
-    }
-.dev-arrow{
-    display: none;
-}
 }
 
 
